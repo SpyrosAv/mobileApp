@@ -1,0 +1,175 @@
+body {
+	background-color: red;
+	background-image: url('../images/bg_page_notes.gif');
+	font-family: Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #a65c4c;
+}
+
+#container {
+	width: 90%;
+	margin: 0 auto;
+	background: #fff5ea;
+}
+
+#main {
+	width: 93.75%;
+	margin: 0 auto 5.888888% auto;
+	/* 53px / 900px */
+	background: #fff url('../images/bg_main.png') repeat-y 62.888888% 0;
+}
+
+header {
+	background-color: #a67947;
+	padding: 0 0 0 4%;
+}
+
+#tagline {
+	float: left;
+	font-size: 16px;
+	font-style: italic;
+	margin: 4% 4% 0 0;
+}
+
+#menu {
+	background-color: #2d5668;
+	padding: 2% 0 2% 4%;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	background-color: #2D5668;
+}
+
+#menu a {
+	color: white;
+	float: right;
+	background-color: red;
+	padding: 2px 4px 4px 4px;
+}
+
+span {
+	font-variant-caps: all-petite-caps;
+	text-underline-position: below;
+}
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #2D5668;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+
+/* The navigation menu links */
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 20px;
+	color: whitesmoke;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+
+#main #maincontent {
+	width: 52.3%;
+	float: left;
+	padding: 4%;
+	/* 36px / 900px */
+
+}
+
+#main #maincontent h2 {
+	font-size: 22px;
+	font-weight: bold;
+	padding: 0 0 4% 0;
+}
+
+#main #maincontent .performance {
+	margin: 36px 0 0 0;
+	float: left;
+	width: 46.558704%;
+}
+
+#main #maincontent .performance img {
+	margin: 0 0.9% 10px 0;
+	max-width: 100%;
+}
+
+#main #maincontent .performance h3 {
+	font-size: 20px;
+}
+
+#main #maincontent .performance h3 a {
+	color: #2D5668;
+	text-decoration: none;
+}
+
+#main #maincontent img.pagephoto {
+	max-width: 100%;
+	margin-bottom: 4%;
+}
+
+#main #maincontent p {
+	font-size: 14px;
+	margin: 0 0 15px 0;
+}
+
+
+#main #sidebar {
+	width: 20%;
+	/* 259px / 900px */
+	float: left;
+	padding: 4%;
+	/* 36px / 900px */
+}
+
+#main #sidebar h3 {
+	font-style: italic;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#contactinfo {
+	clear: both;
+	background-color: #a67947;
+	padding: 1.111111% 0 1.111111% 4%;
+}
+
+#contactinfo p {
+	font-size: 11px;
+	color: #fff;
+}
+
+footer a{
+	color:aqua;
+}
