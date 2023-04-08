@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ελληνική Ομάδα Διάσωσης - Παράρτημα Σάμου</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/flexiblebg.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="main">
+            <header>
+                <img src="images/logo.png" style="max-width:100%;height:auto;" alt="Ελληνική Ομάδα Διάσωσης" />
+            </header>
+
+            <nav id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Πυρκαγιές</a>
+                <a href="#">Πλημμύρες</a>
+                <a href="#">Σεισμοί</a>
+                <a href="#">Κατολισθήσεις</a>
+                <a href="#">Επικοινωνία</a>
+            </nav>
+
+            <div id="menu">
+                <h3>Ελληνική Ομάδα Διάσωσης</h3>
+
+                <a>
+                    <span onclick="openNav()">Menu</span>
+                    <script>
+                        function openNav() {
+                            document.getElementById("mySidenav").style.width = "200px";
+                        }
+
+                        function closeNav() {
+                            document.getElementById("mySidenav").style.width = "0";
+                        }
+                    </script>
+                </a>
+
+            </div>
+
+            <div id="maincontent">
+                <h2>Εκπαίδευση</h2>
+                <p>Η συνεχής εκπαίδευση και η συμμετοχή σε σεμινάρια είναι αυτά που βοηθούν όλα τα μέλη της ομάδας να
+                    αποκτήσουν τις απαραίτητες γνώσεις και δεξιότητες, για τη συμμετοχή τους στις δράσεις της ομάδας.
+                </p>
+                <p> Η Ε.Ο.Δ. ενημερώνεται συνεχώς για τις εξελίξεις που αφορούν τους τομείς δράσης της και για το λόγο
+                    αυτό παρακολουθεί εκπαιδεύσεις και συνέδρια σε εθνικό και διεθνές επίπεδο. Όλα τα μέλη της
+                    εκπαιδεύονται τόσο σε θεωρητικό επίπεδο όσο και σε πρακτικό.</p>
+                <article class="activity">
+                    <h3><a href="#">Γενικά</a></h3>
+                    <p>Γενικά</p>
+                    <a href="#"><img src="images/thumbnails/logoel.jpg" style="max-width:100%;height:auto;"
+                            alt="general" /></a>
+                </article>
+                <article class="activity">
+                    <h3><a href="#">Διημερίδα Αεροδιάσωσης</a></h3>
+                    <p>111 Πτέρυγα Μάχης στην Νέα Αγχίαλο</p>
+                    <a href="#"><img src="images/thumbnails/image1.jpg" style="max-width:100%;height:auto;"
+                            alt="exercise" /></a>
+                </article>
+                <article class="activity">
+                    <h3><a href="#">Lets do it Greece</a></h3>
+                    <p>Καρλόβασι Σάμου</p>
+                    <a href="#"><img src="images/thumbnails/letsdoit.png" style="max-width:100%;height:auto;"
+                            style="max-width:100%;height:auto;" alt="letsdoit" /></a>
+                </article>
+                <article class="activity">
+                    <h3><a href="#">Άσκηση φυσικών καταστροφών</a></h3>
+                    <p>Καρλόβασι Σάμου</p>
+                    <a href="#"><img src="images/thumbnails/image2.jpg" style="max-width:100%;height:auto;"
+                            alt="other" /></a>
+                </article>
+            </div>
+
+            <aside id="sidebar">
+                <h3>Χρήσιμα στοιχεία</h3>
+                <br />
+                <p><img src="images/thumbnails/katastash_3.png" alt="other" /></p>
+                <br /><br />
+                <p><img src="images/thumbnails/provlepsi_1.png" alt="other" /></p>
+            </aside>
+
+            <footer id="contactinfo">
+                <p>ΕΟΔ Σάμου
+                    <br />Θεμ. Σοφούλη 42, Καρλοβάσι Σάμου, τηλ. 2273087325, email: info@eodsamos.gr
+                </p>
+                <p><a href="../desktop_code/hrt_desktop.html">Desktop website</a></p>
+            </footer>
+        </div>
+    </div>
+</body>
